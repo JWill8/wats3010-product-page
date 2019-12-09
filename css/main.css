@@ -1,5 +1,83 @@
 .logo {
+    display: block;
+    height: 200px;
+    width: 200px;
     margin: auto;
-    height: 150px;
-    width: 150px;
+}
+
+.header-image {
+    background-image: url("/pictures/treebarn.jpg");
+    background-position: center;
+    height: 240px;
+    width: auto;
+    display: block;
+}
+.logo-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/pictures/CascadeFarmsLogoTransparent.png");
+    height: 240px;
+    width: 240px;
+    position: relative;
+
+}
+body {
+    position: relative;
+    font-family: montserrat;
+    color: rgb(12, 27, 18);
+}
+
+.navbar-jw {
+    background-color: rgb(12, 27, 18);
+}
+.nav-item {
+    padding-right: 10px;
+}
+
+
+.nav-item:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+
+a {
+    color:rgb(12, 27, 18);
+}
+
+a.hover {
+    color:white;
+    background-color: rgb(12, 27, 18);
+}
+
+
+.fa:hover {
+    color: white;
+}
+.spacer {
+    min-height: 51px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+@media (max-width: 768px) {
+    .navbar-jw {
+        position: absolute;
+    }
 }

@@ -15,14 +15,38 @@
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="css/main.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-expand-sm navbar-jw navbar-dark fixed-top">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#AboutUs">Who We Are</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#AboutourWreaths">About our Wreaths</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Testimonials">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">How to Find Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Reserve">Reserve Yours Now!</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="spacer">
 
-<img src="pictures/CascadeFarmsLogo.PNG"class="logo">
+  </div>
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -34,19 +58,19 @@
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active" style="background-image: url('pictures/wreaths-on-barn-resized.jpg')">
           <div class="carousel-caption d-none d-md-block">
-          
+
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('pictures/wreath-on-fence.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            
+
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('pictures/christmas-tree-farm.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            
+
           </div>
         </div>
       </div>
@@ -62,69 +86,149 @@
   </header>
 
   <!-- Page Content -->
-  <div class="container">
-
-    <h1 class="my-4">Welcome to Cascade Farms!</h1>
-
-    <!-- Marketing Icons Section -->
-   
-    <!-- /.row -->
-
-    <!-- Features Section -->
-    <div class="row">
-      <div class="col-lg-8">
-        <h2>Who We Are</h2>
-        <p>Cascade Farms is a Christmas Tree Farm located in the pacific northwest, we sell christmas trees and custom christmas wreaths, made right here on the farm. Let us help yo make your holidays special!</p>
-        
-      </div>
-
-    </div>
-    <!-- /.row -->
-    <br>
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>About our Wreaths</h2>
-        <p>Our Wreaths are hand made by expreienced wreath-makers to ensure every wreath is up to our quality standards. We use only Noble Fir branches, the most popular and preferred tree type for Christmas Trees, to make our wreaths</p>
-        
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded" src="pictures/hand-made-wreaths.jpg" alt="">
-      </div>
-    </div>
-    <hr>
-    <h2>Testimonials</h2>
-    <div class="row">
-      <div class="col-lg-3">
-      </div>
-      <div class="col-lg-6">
-        
-        <p>"Cascade Farms helpe dbring hte holiday season to our home this Christmas. Our neighbors all commented on our wreath and asked where they could buy one.  It stayed green long past christmas, we didnt want to throw it away! We'll definitely be back next year"</p>
-        <p> -Jane Doe</p>
-      </div>
-      <div class="col-lg-3">
-        </div>
-
-    </div>
-    <br>
-    <!-- Call to Action Section -->
-    <div class="row mb-4">
-      <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-      </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-      </div>
-    </div>
-
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <h1 style="text-align:center; padding-top:20px;">Welcome to Cascade Farms!</h1>
+  <section>
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <div class="logo">
+              <img class="img-fluid rounded-circle" src="pictures/CascadeFarmsLogo.PNG" alt="Logo">
+            </div>
+          </div>
+        </div>
+        <div id="AboutUs" class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-5">Who We Are</h2>
+            <p>Cascade Farms is a third generation, family run Christmas Tree Farm located in the Pacific Northwest, we
+              sell Christmas trees and
+              custom
+              Christmas wreaths, made right here on the farm. Let us help you make your holidays special!</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /.container -->
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid" src="pictures/hand-made-wreaths.jpg" alt="wreath assembly picture">
+          </div>
+        </div>
+        <div id="AboutourWreaths" class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-5">About our Wreaths</h2>
+            <p>Our Wreaths are hand made by exprienced wreath-makers to ensure every wreath is up to our quality
+              standards.
+              We use only Noble Fir branches, the most popular and preferred tree type for Christmas Trees, to make our
+              wreaths</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid" src="pictures/pine-cone-wreath.jpg" alt="finished wreath on door">
+          </div>
+        </div>
+        <div id="Testimonials" class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-5">Testimonials</h2>
+            <p>"Cascade Farms helped bring the holiday season to our home this Christmas. Our neighbors all commented on
+              our
+              wreath and asked where they could buy one. It stayed green long past Christmas, we didnt want to throw it
+              away! We'll definitely be back next year"</p>
+            <p>-Jane Doe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="p-5">
+          <h2 class="display-5">How They're Made</h2>
+        </div>
+        <div class="col-lg-12">
+          <div class="p-5">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D34cz5QhfWE" width="400"
+                height="300" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div id="Contact" class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-5">How To Find Us</h2>
+            <p>Cascade Farms</p>
+            <p>12345 Snoqualmie Pass</p>
+            <p>Easton, WA 98925</p>
+            <p>Open Daily from Black Friday until December 24th, 10 am to 8 pm</p>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43340.08226984764!2d-121.21616815985881!3d47.24093524266201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a0b9dfdd45c4b%3A0x9561c29e5e4ac9f6!2sEaston%2C%20WA!5e0!3m2!1sen!2sus!4v1575829359044!5m2!1sen!2sus"
+              width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div id="Reserve" class="row align-items-center">
+          <div id="Contact" class="col-lg-12 order-lg-1">
+        <a href=#>
+        <div class="p-5">
+          <h2 class="display-5" style="text-align: center;">Click Here to Reserve Your Wreath</h2>
+        </div>
+        </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.Social Links -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div id="Contact" class="col-lg-12 order-lg-1">
+          <div class="p-5">
+            <h2>Share your Christmas Wreath Memories!</h2>
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- /.container -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white"> &copy; Cascade Farms LLC 2019</p>
+    </div>
   </footer>
 
   <!-- Bootstrap core JavaScript -->
